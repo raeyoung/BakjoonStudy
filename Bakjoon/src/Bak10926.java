@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Bak10926 {
  
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in); 
-        String id = in.next(); 
-        System.out.println(id + "??!");
+		try (Scanner in = new Scanner(System.in)) {
+			String id = in.next(); 
+			System.out.println(id + "??!");
+		}
 	}
  
 }
