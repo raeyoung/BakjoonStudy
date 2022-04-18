@@ -1,3 +1,5 @@
+package one_step;
+
 import java.util.Scanner;
  
 public class Bak10926 {

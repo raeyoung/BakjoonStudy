@@ -1,3 +1,5 @@
+package two_step;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,8 +7,8 @@ import java.io.InputStreamReader;
 public class Bak2753 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// À±³â ±¸ÇÏ±â
-		// À±³â 4ÀÇ ¹è¼öÀÌ¸é¼­ 100ÀÇ ¹è¼ö°¡ ¾Æ´Ò ¶§ ¶Ç´Â 400ÀÇ ¹è¼öÀÏ ¶§ÀÌ´Ù.
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½
+		// ï¿½ï¿½ï¿½ï¿½ 4ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ì¸é¼­ 100ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ ï¿½Ç´ï¿½ 400ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½.
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int year = Integer.parseInt(br.readLine());
